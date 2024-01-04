@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <!--styling part-->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: linear-gradient(to right,#510051,#AA336A);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+            
+        
+        form {
+        background-color: #fff;
+        padding: 70px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-color: #000000;
+        }
+        input {
+            width: 100%;
+            border: none;
+            border-bottom: 2px solid #292828;
+            padding: 8px;
+            margin-bottom: 12px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #ffffff;
+            color: #000000;
+            padding: 10px;
+            border: 2px solid #000000;
+            border-radius: 20px;
+            cursor: pointer;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!--Creating text boxes to upload details-->
+    <form>
+        <h1><center>Register now!</center></h1>
+        <hr>
+        <br>
+        <tr>
+            <td>
+                <input type="text" Placeholder="Enter your name" name="Name">
+            </td>
+        </tr><br><br>
+        <tr>
+            <td>
+                <input type="Email" placeholder="xyz@gmail.com" name="Email">
+            </td>
+        </tr><br><br>
+        <tr>
+            <td>
+                <input type="tel" id="phone" placeholder="Enter your number" name="Phone">
+            </td>
+        </tr><br><br>
+        <tr>
+            <td>
+                <input type="text" placeholder="Any comments.." name="comments">
+            </td>
+        </tr><br>
+        <button type="submit" onclick="myClick()">submit</button>
+        <br><br>
+        Already have an account?
+        <!-- add link to the login page in href attribute-->
+        <a href="">Login Here</a>
+    </form>
+</body>
+</html>
